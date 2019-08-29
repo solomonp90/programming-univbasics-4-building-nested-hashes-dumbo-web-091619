@@ -44,8 +44,8 @@ def monopoly_with_fourth_tier(string,array)
   # they'll guide you in how to modify what you just did to have more
   # complexity.
 	#mortgage_prices = [100,200,400,800]
-string = "$"
-array = [100,200,400,800]
+# string = "$"
+# array = [100,200,400,800]
 	base_hash={
 		:railroads=>{
 			:pieces=>4,
@@ -57,5 +57,5 @@ array = [100,200,400,800]
 				:names=>{:reading_railroad=>{:mortgage_value=>string+array[0]},:pennsylvania_railroad=>{},:b_and_o_railroad=>{},:shortline_railroad=>{}},
 
 			}}
-
+monopoly_with_fourth_tier("$",[100,200,400,800])
 end

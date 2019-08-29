@@ -55,7 +55,7 @@ def monopoly_with_fourth_tier
 					:reading_railroad=>{:mortgage_value=>"$100"},
 					:pennsylvania_railroad=>{:mortgage_value=>},
 					:b_and_o_railroad=>{:mortgage_value=>},
-					:shortline_railroad=>{:mortgage_value=>}},
+					:shortline_railroad=>{:mortgage_value=>},
 
 				}}
 end
